@@ -1,6 +1,8 @@
 import React from "react";
 import { Pane, Heading } from "evergreen-ui";
+
 import Login from "./components/Login";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         Evergreen Patterns
       </Heading>
       <Login />
+      <Sidebar />
     </Pane>
   );
 }
